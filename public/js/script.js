@@ -25,10 +25,10 @@ function createUser(event) {
     // Check and make sure errorCount's still at zero
     if(errorCount === 0) {
       var newUser = {
-        'firstname': $('input#firstname').val(),
-        'lastname': $('input#lastname').val(),
-        'age': $('input#age').val(),
-        'occupation': $('input#occupation').val()
+        'name': $('input#name').val(),
+        'comment': $('input#comment').val(),
+//         'age': $('input#age').val(),
+//         'occupation': $('input#occupation').val()
       };
       // Use AJAX to post the object to our adduser service
       $.ajax({
@@ -78,11 +78,11 @@ function updateUser(event) {
 // Update User Submit
 function submitUser(event) {
   var newUser = {
-    'firstname': $('#firstname0').val(),
-    'lastname': $('#lastname0').val(),
-    'age': $('#age0').val(),
-    'occupation': $('#occupation0').val()
-  };
+    'name': $('#name0').val(),
+    'comment': $('#comment0').val(),
+//     'age': $('#age0').val(),
+//     'occupation': $('#occupation0').val()
+   };
 
   // Use AJAX to put the object to our updateuser service
   $.ajax({
