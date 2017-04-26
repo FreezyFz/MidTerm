@@ -5,10 +5,10 @@ var Schema = mongoose.Schema;
 
 // Define Schema
 var personSchema = new Schema({
-  firstname : String,
-  lastname  : String,
-  age       : Number,
-  occupation: String
+  name : String,
+  comment  : String,
+//   age       : Number,
+//   occupation: String
 });
 
 module.exports = mongoose.model('Person', personSchema);
