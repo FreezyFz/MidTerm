@@ -14,7 +14,7 @@ body {
 .name {
 	display: inline-block;
 	width: inherit;
-	height:50px;
+	height:100px;
 }
 button{
 	margin-top: 10px;
