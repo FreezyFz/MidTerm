@@ -4,7 +4,7 @@
     <% userinfos.forEach(function(userinfo){ %>
       <li>
         <div class='name'>
-          <%= userinfo['name'] %> <%= userinfo['comment'] %>
+          <%= userinfo['name'] %>說<%= userinfo['comment'] %>
         </div>
 
         <a href="" class='delete' rel=<%= userinfo['_id']%>>DEL</a>
