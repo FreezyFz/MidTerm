@@ -110,7 +110,7 @@ a:active{
 #userinfo{
 	float:right;
 	width:500px;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 #userupdate{
 	display:none;
